@@ -1,0 +1,1 @@
+export type SumFn = (a: number) => number 
