@@ -1,6 +1,6 @@
 {
   "name": "@it-skoof/lib-test",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/test-lib.mjs",
   "module": "dist/test-lib.js",
   "types": "dist/index.d.ts",
