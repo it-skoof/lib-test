@@ -1,3 +1,3 @@
-export * from './dist/cjs';
-
+export * from './dist/cjs/index';
+export * from './dist/esm/index';
 
