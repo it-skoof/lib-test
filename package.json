@@ -1,11 +1,16 @@
 {
-  "name": "@chuck-chuckscript/lib-test",
-  "version": "1.0.4",
+  "name": "@it-skoof/lib-test",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "vite build"
   },
-  "repository": {"url": "https://github.com/it-skoof/lib-test.git"},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "https://github.com/it-skoof/lib-test"
+  },
   "keywords": [],
   "author": "it-skoof",
   "license": "MIT",
