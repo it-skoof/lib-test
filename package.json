@@ -15,7 +15,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
-    "url": "https://github.com/it-skoof/lib-test"
+    "url": "git+https://github.com/it-skoof/lib-test.git"
   },
   "keywords": [],
   "author": "it-skoof",
