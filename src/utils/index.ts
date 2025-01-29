@@ -1,1 +1,1 @@
-export { sum } from "./sumFn";
+export * from "./sumFn";

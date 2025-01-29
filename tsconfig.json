@@ -1,20 +1,20 @@
 {
     "compilerOptions": {
-        "alwaysStrict": true,
-        "target": "ES2020",
-        "allowJs": true,
-        "checkJs": true,
-        "baseUrl": "./",
-        "allowSyntheticDefaultImports": true,
-        "allowImportingTsExtensions": true,
-        "noEmit": true,
-        "esModuleInterop": true,
-        "module": "ES2020",
-        "moduleResolution": "node",
-        "declaration": true,
-        "declarationDir": "./types",
-        "lib": ["ESNext"]
+      "outDir": "dist",
+      "rootDir": "src",
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "module": "ESNext",
+      "target": "ESNext",
+      "strict": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "paths": {
+        "@test-lib/*": ["src/*"]
+      }
     },
-    "include": ["src"],
+    "include": ["src/**/*"],
     "exclude": ["node_modules"]
-}
+  }

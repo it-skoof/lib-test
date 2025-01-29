@@ -8,17 +8,13 @@ export default defineConfig({
     base: './',
     build: {
         lib: {
-            entry: path.resolve(__dirname, 'index.js'),
-            fileName: (format, fileName) => {
-                console.log(format + ' ' + fileName);
-
-
-                // if(format === '')
-
-                return format + '/' + fileName + '.js'
-            },
-            name: 'myBndl',
-            formats: ['esm', 'cjs']
+            entry: path.resolve('src/index.ts'),
+            fileName: 'test-lib',
+            name: 'testLib',
+            formats: ['es', 'cjs']
+        },
+        rollupOptions: {
+            external: []
         }
     }
 } as UserConfig)
