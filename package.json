@@ -1,9 +1,9 @@
 {
   "name": "@it-skoof/lib-test",
-  "version": "1.0.6",
-  "main": "dist/test-lib.mjs",
-  "module": "dist/test-lib.js",
-  "types": "dist/index.d.ts",
+  "version": "1.0.7",
+  "main": "/dist/test-lib.mjs",
+  "module": "/dist/test-lib.js",
+  "types": "/dist/index.d.ts",
   "scripts": {
     "build": "vite build && npx tsc"
   },
