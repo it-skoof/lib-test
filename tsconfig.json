@@ -4,17 +4,17 @@
       "rootDir": "src",
       "declaration": true,
       "emitDeclarationOnly": true,
+      "lib": ["DOM", "ES2022"],
       "module": "ESNext",
       "target": "ESNext",
       "strict": true,
       "esModuleInterop": true,
       "moduleResolution": "node",
+      "checkJs": true,
+      "allowJs": true,
       "allowSyntheticDefaultImports": true,
       "baseUrl": ".",
-      "paths": {
-        "@test-lib/*": ["src/*"]
-      }
     },
     "include": ["src/**/*"],
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules/**", "**/__test__/**"]
   }
