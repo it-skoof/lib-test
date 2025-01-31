@@ -1,15 +1,14 @@
 {
   "name": "@it-skoof/lib-test",
-  "version": "1.0.7",
-  "main": "/dist/test-lib.mjs",
-  "module": "/dist/test-lib.js",
-  "types": "/dist/index.d.ts",
+  "version": "1.0.8",
+  "main": "dist/test-lib.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "vite build && npx tsc"
   },
   "exports": {
     "import": "./dist/test-lib.js",
-    "require": "./dist/test-lib.mjs"
+    "require": "./dist/test-lib.js"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
