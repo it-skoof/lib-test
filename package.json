@@ -1,5 +1,5 @@
 {
-  "name": "vite-learn",
+  "name": "@it-skoof/vite-learn",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -7,12 +7,25 @@
     "build": "vite build && npx tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "it-skoof",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.0",
     "typescript": "^5.7.3",
     "vite": "^6.0.11"
-  }
+  },
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it-skoof/lib-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/it-skoof/lib-test/issues"
+  },
+  "homepage": "https://github.com/it-skoof/lib-test#readme",
+  "description": ""
 }
