@@ -1,6 +1,6 @@
 {
   "name": "@it-skoof/vite-learn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/main.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -25,11 +25,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/it-skoof/lib-test.git"
+    "url": "git+https://github.com/it-skoof/vite-learn.git"
   },
   "bugs": {
-    "url": "https://github.com/it-skoof/lib-test/issues"
+    "url": "https://github.com/it-skoof/vite-learn/issues"
   },
-  "homepage": "https://github.com/it-skoof/lib-test#readme",
+  "homepage": "https://github.com/it-skoof/vite-learn.git#readme",
   "description": ""
 }
