@@ -10,10 +10,11 @@ export default defineConfig({
             main: path.resolve(__dirname, 'src', 'index.ts'),
         },
         fileName: 'index',
-        formats: ['es', 'cjs']
-    }
+        formats: ['es', 'cjs'],
+    },
+    outDir: 'lib'
    },
    resolve: {
     extensions: ['.ts', '.js']
-   } 
+   },
 })
