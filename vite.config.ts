@@ -9,8 +9,8 @@ export default defineConfig({
         entry: {
             main: path.resolve(__dirname, 'src', 'index.ts'),
         },
-        fileName: 'index',
-        formats: ['es', 'cjs'],
+        fileName: 'main',
+        formats: ['cjs', 'es'],
     },
     outDir: 'lib'
    },

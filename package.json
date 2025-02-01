@@ -1,8 +1,7 @@
 {
   "name": "@it-skoof/vite-learn",
   "version": "1.0.3",
-  "type": "module",
-  "main": "lib/index.js",
+  "main": "lib/main.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "preview": "vite preview",
@@ -18,8 +17,8 @@
   },
   "exports": {
     "types": "./lib/index.d.ts",
-    "import": "./lib/index.js",
-    "require": "./lib/index.cjs"
+    "import": "./lib/main.js",
+    "require": "./lib/main.cjs"
   },
   "publishConfig": {
     "access": "public"
